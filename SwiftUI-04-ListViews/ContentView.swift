@@ -34,6 +34,18 @@ struct ContentView: View {
                     label: {
                         Text("Styled List").padding()
                     })
+                
+                NavigationLink(
+                    destination: SingleSelection().navigationBarTitle("Selecting Single List Items", displayMode: .inline) ,
+                    label: {
+                        Text("Selecting Single List Items").padding()
+                    })
+                
+                NavigationLink(
+                    destination: MultipleSelection().navigationBarTitle("Selecting Multiple List Items", displayMode: .inline) ,
+                    label: {
+                        Text("Selecting Multiple List Items").padding()
+                    })
             }
         }
     }
