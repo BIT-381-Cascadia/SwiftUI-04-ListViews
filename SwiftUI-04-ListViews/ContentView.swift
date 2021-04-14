@@ -9,8 +9,33 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            VStack {
+            NavigationLink(
+                destination: StaticList().navigationBarTitle("Static List", displayMode: .inline) ,
+                label: {
+                    Text("Static List").padding()
+                })
+                
+                NavigationLink(
+                    destination: DynamicList().navigationBarTitle("Dynamic List", displayMode: .inline) ,
+                    label: {
+                        Text("Dynamic List").padding()
+                    })
+                
+                NavigationLink(
+                    destination: GroupedList().navigationBarTitle("Grouped List", displayMode: .inline) ,
+                    label: {
+                        Text("Grouped List").padding()
+                    })
+                
+                NavigationLink(
+                    destination: StyledLists().navigationBarTitle("Styled List", displayMode: .inline) ,
+                    label: {
+                        Text("Styled List").padding()
+                    })
+            }
+        }
     }
 }
 
