@@ -14,7 +14,7 @@ struct StaticList: View {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text("Row #2")
             HStack {
-                Image(systemName: "star")
+                Image(systemName: "forward.fill")
                 Text("Row with image")
             }
             FancyRow()

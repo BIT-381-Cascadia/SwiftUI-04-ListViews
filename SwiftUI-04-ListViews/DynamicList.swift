@@ -9,15 +9,20 @@ import SwiftUI
 
 struct CascadiaCourse : Identifiable {
     let id = UUID()
+    let img: String
     let title: String
+    
 }
 
 struct CourseRow: View {
     let whichCourse: CascadiaCourse
-    
     var body: some View {
         HStack {
-            Text("Course title:\n\(whichCourse.title)")
+            Image(systemName: whichCourse.img)
+            Button(whichCourse.title){
+                print("button pressed")
+            }
+            //Text((whichCourse.title))
         }
     }
 }
@@ -25,21 +30,21 @@ struct CourseRow: View {
 struct DynamicList: View {
     
     let courseList = [
-        CascadiaCourse(title: "Intro to Programming"),
-        CascadiaCourse(title: "Intermediate Programming"),
-        CascadiaCourse(title: "Advanced Programming")
+        CascadiaCourse(img: "text.bubble.fill", title: "Texting"),
+        CascadiaCourse(img: "envelope.fill", title: "Email"),
+        CascadiaCourse(img: "phone.circle.fill", title: "Some other phone thing")
     ]
     
     var body: some View {
         VStack {
-            Text("Cascadia's Courses:").font(.title)
+            Text("Sample Tutorials:").font(.title)
             
             List(courseList) { aCourse in
                 CourseRow(whichCourse:aCourse)
             }
             
-            Text("More concise code:")
-            List(courseList, rowContent: CourseRow.init)
+//            Text("More concise code:")
+//            List(courseList, rowContent: CourseRow.init)
         }
     }
 }

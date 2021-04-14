@@ -23,29 +23,29 @@ struct ContentView: View {
                         Text("Dynamic List").padding()
                     })
                 
-                NavigationLink(
-                    destination: GroupedList().navigationBarTitle("Grouped List", displayMode: .inline) ,
-                    label: {
-                        Text("Grouped List").padding()
-                    })
+//                NavigationLink(
+//                    destination: GroupedList().navigationBarTitle("Grouped List", displayMode: .inline) ,
+//                    label: {
+//                        Text("Grouped List").padding()
+//                    })
                 
-                NavigationLink(
-                    destination: StyledLists().navigationBarTitle("Styled List", displayMode: .inline) ,
-                    label: {
-                        Text("Styled List").padding()
-                    })
+//                NavigationLink(
+//                    destination: StyledLists().navigationBarTitle("Styled List", displayMode: .inline) ,
+//                    label: {
+//                        Text("Styled List").padding()
+//                    })
                 
-                NavigationLink(
-                    destination: SingleSelection().navigationBarTitle("Selecting Single List Items", displayMode: .inline) ,
-                    label: {
-                        Text("Selecting Single List Items").padding()
-                    })
+//                NavigationLink(
+//                    destination: SingleSelection().navigationBarTitle("Selecting Single List Items", displayMode: .inline) ,
+//                    label: {
+//                        Text("Selecting Single List Items").padding()
+//                    })
                 
-                NavigationLink(
-                    destination: MultipleSelection().navigationBarTitle("Selecting Multiple List Items", displayMode: .inline) ,
-                    label: {
-                        Text("Selecting Multiple List Items").padding()
-                    })
+//                NavigationLink(
+//                    destination: MultipleSelection().navigationBarTitle("Selecting Multiple List Items", displayMode: .inline) ,
+//                    label: {
+//                        Text("Selecting Multiple List Items").padding()
+//                    })
             }
         }
     }
