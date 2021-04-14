@@ -11,6 +11,11 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
+                NavigationLink(
+                    destination: MyList().navigationBarTitle("My List", displayMode: .inline) ,
+                    label: {
+                        Text("My List").padding()
+                    })
             NavigationLink(
                 destination: StaticList().navigationBarTitle("Static List", displayMode: .inline) ,
                 label: {

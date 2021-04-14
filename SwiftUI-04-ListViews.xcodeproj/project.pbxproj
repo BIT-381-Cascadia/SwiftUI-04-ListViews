@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F755F6726278A740002F057 /* myList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F755F6626278A740002F057 /* myList.swift */; };
 		E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */; };
 		E4F6BF142626B30200099E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF132626B30200099E0C /* ContentView.swift */; };
 		E4F6BF162626B30400099E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6BF152626B30400099E0C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F755F6626278A740002F057 /* myList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myList.swift; sourceTree = "<group>"; };
 		E4F6BF0E2626B30200099E0C /* SwiftUI-04-ListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-04-ListViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_04_ListViewsApp.swift; sourceTree = "<group>"; };
 		E4F6BF132626B30200099E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				E4F6BF302626CB8600099E0C /* SelectingListItems.swift */,
 				E4F6BF34262755BD00099E0C /* MultipleSelection.swift */,
 				E4F6BF132626B30200099E0C /* ContentView.swift */,
+				3F755F6626278A740002F057 /* myList.swift */,
 				E4F6BF152626B30400099E0C /* Assets.xcassets */,
 				E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */,
 				E4F6BF1A2626B30400099E0C /* Info.plist */,
@@ -162,6 +165,7 @@
 				E4F6BF312626CB8600099E0C /* SelectingListItems.swift in Sources */,
 				E4F6BF35262755BD00099E0C /* MultipleSelection.swift in Sources */,
 				E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */,
+				3F755F6726278A740002F057 /* myList.swift in Sources */,
 				E4F6BF2D2626C6A300099E0C /* StyledLists.swift in Sources */,
 				E4F6BF292626C1C300099E0C /* GroupedList.swift in Sources */,
 			);
