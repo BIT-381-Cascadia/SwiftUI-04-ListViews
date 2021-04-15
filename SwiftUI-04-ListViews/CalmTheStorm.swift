@@ -17,7 +17,7 @@ struct DisasterRow: View {
     
     var body: some View {
         HStack {
-            Text("Disaster Type: \(whichDisaster.title)")
+            Text(" \(whichDisaster.title)")
         }
     }
 }
@@ -25,20 +25,21 @@ struct DisasterRow: View {
 struct DisasterList: View {
     
     let disasterList = [
-        DisasterType(title: "Tornado"),
-        DisasterType(title: "Wildfire"),
-        DisasterType(title: "Volcano"),
-        DisasterType(title: "Earthquake")
+        DisasterType(title: "- Try to find a ditch."),
+        DisasterType(title: "- Stay away from windows."),
+        DisasterType(title: "- If you can't get to a cellar, go into a bathroom."),
+        DisasterType(title: "- Cover head and neck area with hands.")
     ]
     
     var body: some View {
         VStack {
-            Image(systemName: "tropicalstorm")
+            HStack{
+            Image(systemName: "tornado")
                 .font(.system(size: 40))
                 .frame(width: 22.0, height: 22.0)
                 .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
-            Text("Disasters:").font(.title)
-            
+            Text("Tornado:").font(.title).fontWeight(.regular)
+        }
             List(disasterList) { aDisaster in
                 DisasterRow(whichDisaster:aDisaster)
             }
