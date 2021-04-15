@@ -44,6 +44,8 @@ struct DynamicList: View {
     }
 }
 
+
+
 struct DynamicList_Previews: PreviewProvider {
     static var previews: some View {
         DynamicList()
