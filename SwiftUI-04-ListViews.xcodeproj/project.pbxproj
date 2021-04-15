@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F5B411726279A45000C9369 /* InClassActivityListPractice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5B411626279A45000C9369 /* InClassActivityListPractice.swift */; };
 		E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */; };
 		E4F6BF142626B30200099E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF132626B30200099E0C /* ContentView.swift */; };
 		E4F6BF162626B30400099E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6BF152626B30400099E0C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F5B411626279A45000C9369 /* InClassActivityListPractice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InClassActivityListPractice.swift; sourceTree = "<group>"; };
 		E4F6BF0E2626B30200099E0C /* SwiftUI-04-ListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-04-ListViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_04_ListViewsApp.swift; sourceTree = "<group>"; };
 		E4F6BF132626B30200099E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		E4F6BF102626B30200099E0C /* SwiftUI-04-ListViews */ = {
 			isa = PBXGroup;
 			children = (
+				3F5B411626279A45000C9369 /* InClassActivityListPractice.swift */,
 				E4F6BF212626B3F300099E0C /* StaticList.swift */,
 				E4F6BF242626B99500099E0C /* DynamicList.swift */,
 				E4F6BF282626C1C300099E0C /* GroupedList.swift */,
@@ -163,6 +166,7 @@
 				E4F6BF35262755BD00099E0C /* MultipleSelection.swift in Sources */,
 				E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */,
 				E4F6BF2D2626C6A300099E0C /* StyledLists.swift in Sources */,
+				3F5B411726279A45000C9369 /* InClassActivityListPractice.swift in Sources */,
 				E4F6BF292626C1C300099E0C /* GroupedList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
