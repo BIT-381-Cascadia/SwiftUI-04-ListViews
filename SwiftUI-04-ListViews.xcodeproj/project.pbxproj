@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F13F3A726279A18008408CA /* techEaseTutorialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13F3A626279A18008408CA /* techEaseTutorialList.swift */; };
 		E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */; };
 		E4F6BF142626B30200099E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF132626B30200099E0C /* ContentView.swift */; };
 		E4F6BF162626B30400099E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6BF152626B30400099E0C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F13F3A626279A18008408CA /* techEaseTutorialList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techEaseTutorialList.swift; sourceTree = "<group>"; };
 		E4F6BF0E2626B30200099E0C /* SwiftUI-04-ListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-04-ListViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_04_ListViewsApp.swift; sourceTree = "<group>"; };
 		E4F6BF132626B30200099E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */,
 				E4F6BF1A2626B30400099E0C /* Info.plist */,
 				E4F6BF172626B30400099E0C /* Preview Content */,
+				5F13F3A626279A18008408CA /* techEaseTutorialList.swift */,
 			);
 			path = "SwiftUI-04-ListViews";
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				E4F6BF222626B3F300099E0C /* StaticList.swift in Sources */,
 				E4F6BF252626B99500099E0C /* DynamicList.swift in Sources */,
 				E4F6BF142626B30200099E0C /* ContentView.swift in Sources */,
+				5F13F3A726279A18008408CA /* techEaseTutorialList.swift in Sources */,
 				E4F6BF312626CB8600099E0C /* SelectingListItems.swift in Sources */,
 				E4F6BF35262755BD00099E0C /* MultipleSelection.swift in Sources */,
 				E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */,
