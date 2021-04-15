@@ -46,6 +46,12 @@ struct ContentView: View {
                     label: {
                         Text("Selecting Multiple List Items").padding()
                     })
+                
+                NavigationLink(
+                    destination: DisasterList().navigationBarTitle("View Disaster Types", displayMode: .inline) ,
+                    label: {
+                        Text("View Disaster Types").padding()
+                    })
             }
         }
     }
