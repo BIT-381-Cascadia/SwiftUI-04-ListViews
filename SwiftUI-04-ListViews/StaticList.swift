@@ -7,10 +7,10 @@
 
 import SwiftUI
 
+// UITableView
 struct StaticList: View {
     var body: some View {
         List {
-        
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text("Row #2")
             HStack {
