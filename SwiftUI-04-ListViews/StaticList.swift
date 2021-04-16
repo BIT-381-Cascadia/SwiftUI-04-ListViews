@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+//uitableview
 struct StaticList: View {
     var body: some View {
         List {
@@ -14,7 +14,7 @@ struct StaticList: View {
             Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
             Text("Row #2")
             HStack {
-                Image(systemName: "star")
+                Image(systemName: "trash.fill")
                 Text("Row with image")
             }
             FancyRow()
@@ -27,15 +27,15 @@ struct FancyRow: View {
         VStack {
             Text("Hi")
             HStack {
+                Image(systemName: "ant")
                 Image(systemName: "star")
+                Image(systemName: "ant")
                 Image(systemName: "star")
-                Image(systemName: "star")
-                Image(systemName: "star")
-                Image(systemName: "star")
+                Image(systemName: "ant")
             }
         }
         .padding()
-        .background(Color.white)
+        .background(Color.gray)
         .padding(5)
         .background(Color.blue)
         .padding(5)

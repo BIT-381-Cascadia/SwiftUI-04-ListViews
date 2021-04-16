@@ -40,7 +40,8 @@ struct GroupedList: View {
                 ForEach(areas) { area in
                     Section(header:Text("Area: \(area.name)")) {
                         ForEach(area.courses) { course in
-                            CourseRow(whichCourse:course)
+                            CourseRow(whichCourse:course).foregroundColor(.pink)
+                            
                         }
                     }   
                 }

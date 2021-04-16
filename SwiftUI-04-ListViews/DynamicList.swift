@@ -27,15 +27,16 @@ struct DynamicList: View {
     let courseList = [
         CascadiaCourse(title: "Intro to Programming"),
         CascadiaCourse(title: "Intermediate Programming"),
-        CascadiaCourse(title: "Advanced Programming")
+        CascadiaCourse(title: "Advanced Programming"),
+        CascadiaCourse(title: "Intermediate cheese making")
     ]
     
     var body: some View {
         VStack {
             Text("Cascadia's Courses:").font(.title)
             
-            List(courseList) { aCourse in
-                CourseRow(whichCourse:aCourse)
+            List(courseList) { theCourse in
+                CourseRow(whichCourse:theCourse)
             }
             
             Text("More concise code:")

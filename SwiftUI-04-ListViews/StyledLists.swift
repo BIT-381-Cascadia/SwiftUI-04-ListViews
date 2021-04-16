@@ -20,7 +20,7 @@ struct StyledLists: View {
                 NavigationLink(
                     destination: GroupedList().listStyle(InsetListStyle()).navigationBarTitle("InsetListStyle", displayMode: .inline) ,
                     label: {
-                        Text("InsetListStyle:").padding()
+                        Text("CarouselListStyle:").padding()
                     })
                 
                 NavigationLink(
@@ -34,7 +34,14 @@ struct StyledLists: View {
                     label: {
                         Text("SidebarListStyle:").padding()
                     })
-            }
+            
+            
+            NavigationLink(
+                destination: InClassList().listStyle(SidebarListStyle()).navigationBarTitle("SidebarListStyle", displayMode: .inline) ,
+                label: {
+                    Text("New List:").padding()
+                })
+        }
             
             // from https://developer.apple.com/documentation/swiftui/liststyle#relationships:
 //            CarouselListStyle
