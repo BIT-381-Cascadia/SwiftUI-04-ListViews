@@ -9,7 +9,6 @@ import SwiftUI
 
 struct SingleSelection: View {
     
-    @State private var multiSelection = Set<UUID>()
     @State private var singleSelection: UUID?
 
     let courseList = [
@@ -29,9 +28,12 @@ struct SingleSelection: View {
                         }
                     }
                 }
-                .navigationTitle("List Selection")
+                
+                
+                .navigationTitle("Calm The Storm")
                 .toolbar {
                     EditButton()
+                    
                 }
             }
             
@@ -44,6 +46,8 @@ struct SingleSelection: View {
         }
     }
 }
+
+
 
 struct SelectingListItems_Previews: PreviewProvider {
     static var previews: some View {

@@ -9,45 +9,57 @@ import SwiftUI
 
 struct MultipleSelection: View {
     @State private var multiSelection = Set<UUID>()
+  
 
-    let courseList = [
-        CascadiaCourse(title: "Intro to Programming"),
-        CascadiaCourse(title: "Intermediate Programming"),
-        CascadiaCourse(title: "Advanced Programming")
+    let itemList = [
+        CascadiaCourse(title: "Water"),
+        CascadiaCourse(title: "Food"),
+        CascadiaCourse(title: "Flashlight"),
+        CascadiaCourse(title: "Extra Batteries"),
+        CascadiaCourse(title: "Firs Aid Kit"),
+        CascadiaCourse(title: "Manual Can Opener")
     ]
+    
+  
 
     var body: some View {
         VStack {
             NavigationView {
                 List(selection: $multiSelection) {
-                    ForEach(courseList, id: \CascadiaCourse.id) { course in
+                    ForEach(itemList, id: \CascadiaCourse.id) { Kit in
                         HStack {
-                            Image(systemName: "square.and.pencil").font(Font.system(.largeTitle))
-                            Text(course.title)
+                            Image(systemName: "circle").font(Font.system(.largeTitle))
+                            Text(Kit.title)
                         }
                     }
+                    
                 }
-                .navigationTitle("List Selection")
+                .navigationTitle("Survival Kit")
                 .toolbar {
                     EditButton()
                 }
             }
-            
+
             if multiSelection.count == 0 {
                 Text("You haven't selected anything")
             } else {
                 List {
                     ForEach(Array(multiSelection), id:\.self) { selected in
                         Text("You selected: \(selected)")
+                        
                     }
+                    
                 }
             }
         }
     }
-}
+
+
 
 struct MultipleSelection_Previews: PreviewProvider {
     static var previews: some View {
         MultipleSelection()
     }
+  }
 }
+
