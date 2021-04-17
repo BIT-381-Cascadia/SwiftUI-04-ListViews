@@ -27,11 +27,6 @@ struct FancyRow: View {
         VStack {
             Text("Hi")
             HStack {
-                Image(systemName: "star")
-                Image(systemName: "star")
-                Image(systemName: "star")
-                Image(systemName: "star")
-                Image(systemName: "star")
             }
         }
         .padding()
