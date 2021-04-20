@@ -34,6 +34,15 @@ struct StyledLists: View {
                     label: {
                         Text("SidebarListStyle:").padding()
                     })
+                
+//                NavigationLink(
+//                    destination:
+//                        InClassActivity().listStyle(SidebarListStyle())
+//                        .navigationBarTitle ("In Class Activity", displayMode:
+//                        .inline) ,
+//                    label: {
+//                        Text("In Class Activity").padding()
+//                    })
             }
             
             // from https://developer.apple.com/documentation/swiftui/liststyle#relationships:
