@@ -46,10 +46,19 @@ struct ContentView: View {
                     label: {
                         Text("Selecting Multiple List Items").padding()
                     })
+                
+                NavigationLink(
+                    destination:
+                    InClassActivity().navigationBarTitle ("In Class Activity", displayMode: .inline) ,
+                    label: {
+                        Text("In Class Activity").padding()
+                    })
+                    }
+                
             }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
