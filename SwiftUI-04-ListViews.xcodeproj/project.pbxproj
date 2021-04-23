@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F515050263362E100B9401D /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51504F263362E100B9401D /* MyList.swift */; };
 		E4F6BF122626B30200099E0C /* SwiftUI_04_ListViewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */; };
 		E4F6BF142626B30200099E0C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F6BF132626B30200099E0C /* ContentView.swift */; };
 		E4F6BF162626B30400099E0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4F6BF152626B30400099E0C /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F51504F263362E100B9401D /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 		E4F6BF0E2626B30200099E0C /* SwiftUI-04-ListViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-04-ListViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F6BF112626B30200099E0C /* SwiftUI_04_ListViewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_04_ListViewsApp.swift; sourceTree = "<group>"; };
 		E4F6BF132626B30200099E0C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		E4F6BF052626B30200099E0C = {
 			isa = PBXGroup;
 			children = (
+				3F51504F263362E100B9401D /* MyList.swift */,
 				E4F6BF102626B30200099E0C /* SwiftUI-04-ListViews */,
 				E4F6BF0F2626B30200099E0C /* Products */,
 			);
@@ -158,6 +161,7 @@
 			files = (
 				E4F6BF222626B3F300099E0C /* StaticList.swift in Sources */,
 				E4F6BF252626B99500099E0C /* DynamicList.swift in Sources */,
+				3F515050263362E100B9401D /* MyList.swift in Sources */,
 				E4F6BF142626B30200099E0C /* ContentView.swift in Sources */,
 				E4F6BF312626CB8600099E0C /* SelectingListItems.swift in Sources */,
 				E4F6BF35262755BD00099E0C /* MultipleSelection.swift in Sources */,
